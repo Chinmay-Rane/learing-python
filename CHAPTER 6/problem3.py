@@ -1,3 +1,4 @@
+#detect spam
 p1="Make a lot of money"
 p2="click this"
 p3="subscribe this"
