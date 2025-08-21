@@ -1,0 +1,6 @@
+with open("CHAPTER 9/log.txt") as f:
+    content=f.read()
+if "p vbvbcvdbython" in content:
+    print("python in logs")
+else:
+    print("python not")
