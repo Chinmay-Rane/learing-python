@@ -12,6 +12,8 @@ class Vector:
         return result
     def __str__(self):
         return f"({self.x}i+{self.y}j+{self.z}k)"
+    def __len__(self): 
+        return len([self.x,self.y,self.z])
     
 
 #Vector 1
@@ -34,4 +36,8 @@ vu= Vector(v4,v5,v6)
 
 print(f"The addition of both the vectors is: {vo + vu}")
 print(f"The multiplication of both the vectors is: {vo * vu}")
+print (f"The dimension od vector is: {len(vo)}")
+
+
+
 
