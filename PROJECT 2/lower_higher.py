@@ -37,7 +37,7 @@ def logic(guess,a):
         user=int(input("Enter your number: "))
         i+=1
     i+=1
-    print(f"You Guessed Right!!!\nIn number of guesses: {i}")
+    print(f"You Guessed Right!!!\nNumber of guesses: {i}")
     
 
 
